@@ -20,13 +20,13 @@ A simple CLI-based Ruby tool that generates secure passwords and evaluates their
 
 ```bash
 # Clone this repository
-git clone https://github.com/username/password-tool.git
+git clone https://github.com/username/passwordgen-tool.git
 
 # Change into the project directory
-cd password-tool
+cd passwordgen-tool
 
 # Make the script executable
-chmod +x password_tool.rb
+chmod +x passwordgen.rb
 ```
 
 ### Global Installation (Optional)
@@ -45,7 +45,7 @@ sudo chmod +x /usr/local/bin/passwordgen
 Run the script with default settings:
 
 ```bash
-./password_tool.rb
+./passwordgen.rb
 ```
 
 ### Command-line Options
@@ -61,7 +61,7 @@ Run the script with default settings:
 
 **Generate a default password** (12 characters with all character types):
 ```bash
-./password_tool.rb
+./passwordgen.rb
 ```
 ```
 Generated Password: aB4#vTp9$kR2
@@ -71,7 +71,7 @@ Strength: Strong 🟢
 
 **Generate a longer password without symbols**:
 ```bash
-./password_tool.rb --length=16 --no-symbols
+./passwordgen.rb --length=16 --no-symbols
 ```
 ```
 Generated Password: xjU3b7dL9fQk2WzX
@@ -81,7 +81,7 @@ Strength: Strong 🟢
 
 **Generate a password without uppercase letters and numbers**:
 ```bash
-./password_tool.rb --length=20 --no-uppercase --no-numbers
+./passwordgen.rb --length=20 --no-uppercase --no-numbers
 ```
 ```
 Generated Password: jxkz@!!fbrmqtcjwzyv
